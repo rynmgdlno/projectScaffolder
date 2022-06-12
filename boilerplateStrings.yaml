@@ -1,0 +1,14 @@
+React Functional Component: |
+  import React from 'react'
+
+  import './filename.scss'
+
+  const componentName = () => {
+    return (
+      <div>
+        
+      </div>
+    )
+  }
+
+  export default componentName
