@@ -1,4 +1,5 @@
 
-      {
-        currentLevel++;
-      }
+      // {
+      //   // printf("children present\n");
+      //   currentLevel++;
+      // }
