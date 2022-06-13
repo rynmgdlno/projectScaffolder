@@ -4,57 +4,18 @@
   children:
   - name: images
     type: directory
+    children: NULL
   - name: videos
     type: directory
   - name: svg
     type: directory
+    children: NULL
 - name: components
   type: directory
   children:
   - name: customButton
     type: component-folder
+    children: NULL
   - name: formInput
     type: component-folder
-  - name: buttons
-    type: directory
-    children:
-    - name: closeButton
-      type: component-folder
-    - name: menuButton
-      type: component-folder
-    - name: formButton
-      type: component-folder
-    - name: icon-buttons
-      type: directory
-      children:
-      - name: googleButton
-        type: component-folder
-      - name: facebookButton
-        type: component-folder
-      - name: appleButton
-        type: component-folder
-- name: features
-  type: directory
-  children:
-  - name: menu
-    type: component-folder
-  - name: composer
-    type: component-folder
-  - name: topBar
-    type: component-folder
-- name: global
-  type: directory
-  children:
-  - name: global-styles.scss
-    type: file
-  - name: theme.scss
-    type: file
-- name: views
-  type: directory
-  children:
-  - name: home
-    type: component-folder
-  - name: contact
-    type: component-folder
-  - name: work
-    type: component-folder
+    children: NULL
